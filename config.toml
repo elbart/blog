@@ -1,0 +1,52 @@
+# The URL the site will be built for
+base_url = "https://n2d.io"
+
+default_language = "en"
+title = "n2d.io blog"
+description = "nerds, blogging"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+generate_feed = true
+
+theme = "zerm"
+
+taxonomies = [
+           {name = "tags"},
+           {name = "categories"},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+author = "Tim Eggert"
+show_author = true
+show_categories = true
+show_tags = true
+theme_color = "blue"
+show_menu_items = 4
+main_menu = [
+              {url="/", name="home"},
+              {url="/about/", name="about"},
+              {url="/contact/", name="contact"},
+              {url="https://github.com/elbart", name="github", external=true},
+]
+logo_text = "n2d.io (nerds, blogging)"
+copyright = "© 2022 Tim Eggert | n2d.io :: Powered by zola and theme zerm"
+# Displayed as title of drop-down menu when size of main_menu > show_menu_items.
+menu_more = "show more"
+
+# Displayed after teaser text for a blog post.
+read_more = "read more"
+
+# not currently used from previous theme, but leaving here for now in case I
+# feel like adding it.
+read_other_posts = "read other posts"
