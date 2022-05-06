@@ -1,0 +1,3 @@
+[submodule "themes/zerm"]
+	path = themes/zerm
+	url = http://github.com/ejmg/zerm.git
