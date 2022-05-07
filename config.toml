@@ -40,7 +40,7 @@ main_menu = [
               {url="https://github.com/elbart", name="github", external=true},
 ]
 logo_text = "n2d.io (nerds, blogging)"
-copyright = "© 2022 Tim Eggert | n2d.io :: Powered by zola and theme zerm"
+copyright = "© 2022 n2d.io :: Powered by zola and theme zerm"
 # Displayed as title of drop-down menu when size of main_menu > show_menu_items.
 menu_more = "show more"
 
