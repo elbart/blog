@@ -132,7 +132,7 @@ where
 ```
 
 The `handler` argument of both functions is a generic argument `H`, which must be an
-anonymous function which takes exactly one parameter which is a mutable
+anonymous function which takes exactly one parameter that is a mutable
 dynamically dispatched trait object of either `ColumnCreate` or `ColumnAlter`.
 
 Let's look at the definitions of those two:
