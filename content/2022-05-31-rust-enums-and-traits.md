@@ -76,7 +76,7 @@ This results in the following basic requirements:
 1. provide different operations for `create_table` and `alter_table`,
 2. support different sql dialects (e.g. postgres, mysql, mssql).
 
-In the following sections, I will discuss the currently implemented Trait
+In the following sections, I will discuss the currently implemented trait
 approach and will compare it to my first attempt of using Enums. 
 
 # Traits vs. Enums
