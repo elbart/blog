@@ -71,7 +71,7 @@ sql-press supports other operations like:
   ```
 
 # Design Goals
-When using sql-press, I wante it to be as ergonomic as possible to the user.
+When using sql-press, I wanted it to be as ergonomic as possible to the user.
 This results in the following basic requirements:
 1. provide different operations for `create_table` and `alter_table`,
 2. support different sql dialects (e.g. postgres, mysql, mssql).
