@@ -77,7 +77,7 @@ This results in the following basic requirements:
 2. support different sql dialects (e.g. postgres, mysql, mssql).
 
 In the following sections, I will discuss the currently implemented trait
-approach and will compare it to my first attempt of using Enums. 
+approach and will compare it to my first attempt of using enums. 
 
 # Traits vs. Enums
 Dislaimer: I want to mention that I am neither a Rust professional, nor are my
